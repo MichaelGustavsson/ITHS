@@ -12,3 +12,11 @@ I terminal eller konsol fönstret skapa en mapp för applikationen.
 
 `mkdir CarSales`
 
+Gå in i skapad katalog `cd CarSales`
+
+I katalogen kör vi `git init` för att initiera versionhantering av applikationen.
+Vi skapar även två ny kataloger i katalogen,
+```
+mkdir API
+mkdir client
+```
