@@ -1,3 +1,3 @@
 # Exempel på Azure Deployment av en JavaScript applikation
 
-### Exemplet innehåller en väldigt simpel Angular applikation
+### Front-End applikation är en Angular applikation och server applikationen är en .Net Core REST API applikation.
