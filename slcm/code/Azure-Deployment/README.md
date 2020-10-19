@@ -9,3 +9,6 @@ Server delen är en **.NET Core REST API** applikation och frontend delen är en
 
 **Steg 1.**
 I terminal eller konsol fönstret skapa en mapp för applikationen.
+
+`mkdir CarSales`
+
