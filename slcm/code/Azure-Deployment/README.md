@@ -7,7 +7,8 @@ Server delen är en **.NET Core REST API** applikation och frontend delen är en
 
 ### Instruktioner steg för steg.
 
-**Steg 1.**
+**Steg 1.** Sätt upp katalog struktur
+
 I terminal eller konsol fönstret skapa en mapp för applikationen.
 
 `mkdir CarSales`
@@ -20,3 +21,10 @@ Vi skapar även två ny kataloger i katalogen,
 mkdir API
 mkdir client
 ```
+
+**Steg 2.** Skapa API applikationen
+
+Nu skall vi skapa REST API applikationen med hjälp av .NET Core. För att detta skall fungera så måste .NET Core vara installerad på datorn.
+
+Om inte så gå till länken [dotnet.microsoft](https://dotnet.microsoft.com/download)
+
