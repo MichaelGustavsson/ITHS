@@ -103,7 +103,7 @@ Nu kan vi versionshantera våra projekt, antingen använd VS Code's git extensio
 
 För att få vårt API att hantera vår klient applikation så måste vi öppna filen ***startup.cs*** som finns i API projektets rot.
 
-I editor fönstret leta efter metoden ***Configure*** alldeles före app.UseEndpoints. Skriv in följande:
+I editor fönstret leta efter metoden ***Configure*** och alldeles före app.UseEndpoints() anropet. Skriv in följande:
 
 ```
   app.UseDefaultFiles();
