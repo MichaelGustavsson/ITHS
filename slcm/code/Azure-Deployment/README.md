@@ -123,6 +123,15 @@ Lokalisera egenskapen **outputPath** under **build** ändra "dist/client" till *
 
 [![angular-build-path.png](https://i.postimg.cc/65BHj811/angular-build-path.png)](https://postimg.cc/fkgjkRsx)
 
+Nu är vi klara för att skapa en byggversion av vår klient applikation.
+
+I terminal eller konsol fönstret gå in i katalogen *CarSales/client* och skriv följande kommando: ` ng build --prod ` och tryck Enter.
+
+Nu skapas en produktion version av klient applikationen. När det är klart gå tillbaka till VS Code och expandera API projektet och nu har vi fått en katalog som heter *wwwroot*. Om vi expanderar wwwroot kan vi se våra kompilerade klient filer.
+
+[![wwwroot.png](https://i.postimg.cc/HsJJC2KJ/wwwroot.png)](https://postimg.cc/F74Fyjhm)
+
+
 
 
 
