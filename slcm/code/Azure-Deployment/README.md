@@ -60,3 +60,13 @@ Vi kan nu gå tillbaka till terminal eller konsol fönstret och skriva in följa
 Nu är det dags att skapa en klient applikation.
 
 **Steg 3**
+
+I detta steg skall vi skapa en klient applikation med hjälp av Angular. För att kunna göra det behöver vi använda verktyget angular cli om det inte är installerat öppna webbläsaren och gå till
+
+**https://cli.angular.io/**
+
+[![Angular-cli.png](https://i.postimg.cc/ryhzvWYd/Angular-cli.png)](https://postimg.cc/qg3kKtr0)
+
+I terminal eller konsol fönstret skriv kommandot ` npm install -g @angular/cli ` och tryck på Enter. Kommandot kommer att installera angular cli verktyget globalt på vår dator.
+
+Det tar en stund att installera verktyget men håll ut.
