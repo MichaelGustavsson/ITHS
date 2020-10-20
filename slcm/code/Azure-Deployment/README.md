@@ -101,3 +101,27 @@ skriv in *obj* och *bin* för att slippa versionshantera kompilerade filer.
 
 Nu kan vi versionshantera våra projekt, antingen använd VS Code's git extension eller använd terminal fönstret och placera våra filer i git repository. 
 
+För att få vårt API att hantera vår klient applikation så måste vi öppna filen ***startup.cs*** som finns i API projektets rot.
+
+I editor fönstret leta efter metoden ***Configure*** alldeles före app.UseEndpoints. Skriv in följande:
+
+```
+  app.UseDefaultFiles();
+  app.UseStaticFiles();
+  
+```
+
+Detta är för att normalt så returnerar ett API endast json eller xml via sina **endpoints**. Nu vill vi istället att vår index.html som finns i vårt klient projekt skall returneras. Detta är vad ***app.UseDefaultFiles()*** tillåter oss att göra. ***app.UseStaticFiles() tillåter oss att använda statiska filer som *.html, bilder samt css.
+
+
+
+
+
+
+
+
+
+
+
+
+
