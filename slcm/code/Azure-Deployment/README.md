@@ -79,4 +79,9 @@ Själva installationen av applikation kan ta en stund beroende på vilken uppkop
 
 [![ng-new.png](https://i.postimg.cc/DwczPXsy/ng-new.png)](https://postimg.cc/21Vmz32P)
 
+När väl installation är klar kan vi flytta oss till katalogen **client** och där skriva in följande kommando ´ ng serve -o ´, flaggan -o gör att när applikation är kompilerad så kommer standard
+webbläsaren att öppnas och presentera vår nya fantastiska applikation!
+
+[![ng-app.png](https://i.postimg.cc/xCXTQpZc/ng-app.png)](https://postimg.cc/tZHHtkpj)
+
 
