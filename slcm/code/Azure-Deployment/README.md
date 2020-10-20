@@ -84,7 +84,7 @@ webbläsaren att öppnas och presentera vår nya fantastiska applikation!
 
 [![ng-app.png](https://i.postimg.cc/xCXTQpZc/ng-app.png)](https://postimg.cc/tZHHtkpj)
 
-Så nu har ett REST API och en klient applikation. Nu är det dags att koppla REST API projektet så att det kan presentera klient applikation när vi anger REST API adressen i webbläsaren.
+Så nu har ett REST API och en klient applikation. Nu är det dags att koppla REST API projektet så att det kan presentera klient applikationen när vi anger REST API adressen i webbläsaren.
 
 Men innan vi nu gör en push och commit på våra projekt skall vi gå in i API projektet och lägga till en ***.gitignore*** fil så vi slipper att spara undan kompilerad kod och dll filer i vårt repository.
 
@@ -99,5 +99,5 @@ Högerklicka på mappen API och välj skapa ny fil
 Ge filen namnet ***.gitignore*** och öppna filen i editor fönstret.
 skriv in *obj* och *bin* för att slippa versionshantera kompilerade filer.
 
- 
+Nu kan vi versionshantera våra projekt, antingen använd VS Code's git extension eller använd terminal fönstret och placera våra filer i git repository. 
 
