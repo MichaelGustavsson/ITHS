@@ -132,6 +132,16 @@ Nu skapas en produktion version av klient applikationen. När det är klart gå 
 [![wwwroot.png](https://i.postimg.cc/HsJJC2KJ/wwwroot.png)](https://postimg.cc/F74Fyjhm)
 
 
+**Steg 4.**
+Nu ska vi testköra vår applikation, i terminal eller konsolfönstret navigera till *CarSales/API* katalogen.
+Skriv in kommandot ` dotnet run ` för att starta vårt API. När API projektet körs öppna en webbläsare och ange följande adress i addressfältet **https://localhost:5001** och tryck Enter.
+
+Woow!!!
+
+[![klient-app-lokalt.png](https://i.postimg.cc/HnbkVZC3/klient-app-lokalt.png)](https://postimg.cc/D4yTNc0b)
+
+Nu har vi skapat en klient applikation som är hanterad av vårt api.
+
 
 
 
