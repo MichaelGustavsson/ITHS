@@ -113,6 +113,17 @@ I editor fönstret leta efter metoden ***Configure*** och alldeles före app.Use
 
 Detta är för att normalt så returnerar ett API endast json eller xml via sina **endpoints**. Nu vill vi istället att vår index.html som finns i vårt klient projekt skall returneras. Detta är vad ***app.UseDefaultFiles()*** tillåter oss att göra. ***app.UseStaticFiles()*** tillåter oss att använda statiska filer som *.html, bilder samt css.
 
+Nästa steg är att se till att när vi gör en *build* av vårt Angular klient projekt att de kompilerade filerna hamnar i mappen ***wwwroot*** i vårt API projekt.
+
+Expandera vårt *client* projekt och öppna filen **angular.json** i editor fönstret.
+
+[![angular-json.png](https://i.postimg.cc/pXksgPwV/angular-json.png)](https://postimg.cc/pphQjMV3)
+
+Lokalisera egenskapen **outputPath** under **build** ändra "dist/client" till **"../API/wwwroot"**. Detta gör att våra kompilerade filer kommer att kopieras till wwwroot i API projektet när vi bygger klient applikationen.
+
+[![angular-build-path.png](https://i.postimg.cc/65BHj811/angular-build-path.png)](https://postimg.cc/fkgjkRsx)
+
+
 
 
 
