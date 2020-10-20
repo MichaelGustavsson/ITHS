@@ -11,11 +11,11 @@ Server delen är en **.NET Core REST API** applikation och frontend delen är en
 
 I terminal eller konsol fönstret skapa en mapp för applikationen.
 
-`mkdir CarSales`
+` mkdir CarSales `
 
-Gå in i skapad katalog `cd CarSales`
+Gå in i skapad katalog ` cd CarSales `
 
-I katalogen kör vi `git init` för att initiera versionhantering av applikationen.
+I katalogen kör vi ` git init ` för att initiera versionhantering av applikationen.
 
 **Steg 2.** Skapa API applikationen
 
@@ -29,6 +29,34 @@ Detta kan ta en stund att ladda ner och installera, men följ anvisningarna på 
 
 När installationen är klar så är det dags att köra kommandot för att skapa ett REST API med .core.
 
-I terminalen eller konsolfönstret se till att vi står i katalogen CarSales och kör följande kommando: `dotnet sln`. Detta kommando kommer att skapa en solution fil. En solution fil är en Visual Studio fil som används för att hålla ihop olika .net core projekt.
+I terminalen eller konsolfönstret se till att vi står i katalogen CarSales och kör följande kommando: `dotnet new sln`. Detta kommando kommer att skapa en solution fil. En solution fil är en Visual Studio fil som används för att hålla ihop olika .net core projekt.
 
-När solution filen är skapad skriver vi följande kommande `dotnet new webapi -o API`. Detta kommer att skapa ett REST API projekt i katalogen API.
+När solution filen är skapad skriver vi följande kommande `dotnet new webapi -o API`. Flaggan -o(output) innebär att REST API projektet kommer att skapas i en egen katalog API.
+
+När terminal eller konsol fönstret är klart och vi ser att det står **Restore succeded** så är vårt api färdigt.
+
+Glöm inte att versionshantera! 
+
+```
+ git add .
+ git commit -m "Created API projekt"
+ 
+```
+
+Vi kan nu prova att vårt API fungerar. Gå till katalogen API genom att skriva ` cd API `
+
+Skriv nu följande kommando i terminalen ` dotnet run `.
+
+[![dotnet-run.png](https://i.postimg.cc/nVTQpNMh/dotnet-run.png)](https://postimg.cc/9zRfB8G6)
+
+Vi ser nu att api applikationen är uppe och kör. Öppna nu en webbläsare och skriv in följande i webbläsarens adress fält. ` https://localhost:5001/weatherforecast `
+
+Om vi ser följande bild så har vi nu ett fungerande api som returnerar en array med json objekt.
+
+[![Weather-Forecast.png](https://i.postimg.cc/TP8Kt6NC/Weather-Forecast.png)](https://postimg.cc/0zf5NLsw)
+
+Vi kan nu gå tillbaka till terminal eller konsol fönstret och skriva in följande kommando `Ctrl+c ` för att stoppa vårt REST API.
+
+Nu är det dags att skapa en klient applikation.
+
+**Steg 3**
