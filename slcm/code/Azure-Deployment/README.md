@@ -63,10 +63,20 @@ Nu är det dags att skapa en klient applikation.
 
 I detta steg skall vi skapa en klient applikation med hjälp av Angular. För att kunna göra det behöver vi använda verktyget angular cli om det inte är installerat öppna webbläsaren och gå till
 
-**https://cli.angular.io/**
+[angular.cli](https://cli.angular.io/)
+
 
 [![Angular-cli.png](https://i.postimg.cc/ryhzvWYd/Angular-cli.png)](https://postimg.cc/qg3kKtr0)
 
 I terminal eller konsol fönstret skriv kommandot ` npm install -g @angular/cli ` och tryck på Enter. Kommandot kommer att installera angular cli verktyget globalt på vår dator.
 
 Det tar en stund att installera verktyget men håll ut.
+
+När installationen är klar se till att vi står i katalogen CarSales. Skriv in följande kommando ` ng new client ` detta kommando kommer att skapa en ny Angular applikation med namnet **client** 
+i katalogen client. Vid frågan om vi vill ha *routing* svara ja, vid frågan om vilket stylesheet vi vill använda. Håller vi det enkelt och väljer *CSS*.
+
+Själva installationen av applikation kan ta en stund beroende på vilken uppkoppling som används.
+
+[![ng-new.png](https://i.postimg.cc/DwczPXsy/ng-new.png)](https://postimg.cc/21Vmz32P)
+
+
