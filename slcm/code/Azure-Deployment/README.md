@@ -146,6 +146,9 @@ Woow!!!
 Nu har vi skapat en klient applikation som är hanterad av vårt api.
 
 
+**Steg 6.** Deployment till Azure
+
+*Jag återkommer med denna del lite senare...*
 
 
 
