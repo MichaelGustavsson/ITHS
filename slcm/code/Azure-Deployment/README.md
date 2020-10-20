@@ -59,7 +59,7 @@ Vi kan nu gå tillbaka till terminal eller konsol fönstret och skriva in följa
 
 Nu är det dags att skapa en klient applikation.
 
-**Steg 3**
+**Steg 3.** Skapa klient applikationen
 
 I detta steg skall vi skapa en klient applikation med hjälp av Angular. För att kunna göra det behöver vi använda verktyget angular cli om det inte är installerat öppna webbläsaren och gå till
 
@@ -90,7 +90,7 @@ Men innan vi nu gör en push och commit på våra projekt skall vi gå in i API 
 
 Se till att stå i katalogen ***CarSales***. Där skriver vi nu kommandot ` code . ` för att öppna upp projektet i VS Code.
 
-**Steg 3.**
+**Steg 4.** Konfigurering av API projektet
 
 Högerklicka på mappen API och välj skapa ny fil
 
@@ -132,7 +132,8 @@ Nu skapas en produktion version av klient applikationen. När det är klart gå 
 [![wwwroot.png](https://i.postimg.cc/HsJJC2KJ/wwwroot.png)](https://postimg.cc/F74Fyjhm)
 
 
-**Steg 4.**
+**Steg 5.** Testkörning
+
 Nu ska vi testköra vår applikation, i terminal eller konsolfönstret navigera till *CarSales/API* katalogen.
 Skriv in kommandot ` dotnet run ` för att starta vårt API. När API projektet körs öppna en webbläsare och ange följande adress i addressfältet ` https://localhost:5001 ` och tryck Enter.
 
