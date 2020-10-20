@@ -131,6 +131,8 @@ Nu skapas en produktion version av klient applikationen. När det är klart gå 
 
 [![wwwroot.png](https://i.postimg.cc/HsJJC2KJ/wwwroot.png)](https://postimg.cc/F74Fyjhm)
 
+!Glöm inte att versionhantera!
+
 
 **Steg 5.** Testkörning
 
