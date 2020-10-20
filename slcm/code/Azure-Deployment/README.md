@@ -23,6 +23,8 @@ Nu skall vi skapa REST API applikationen med hjälp av .NET Core. För att detta
 
 Om inte så gå till [dotnet.microsoft](https://dotnet.microsoft.com/download). Välj senaste stabila(LTS) versionen som är tillgänglig, just nu vid skrivandets stund så är det 3.1. Välj operativsystem som används, i mitt fall macOS. Klicka på alternativet **Build Apps** och klicka på Download .NET Core SDK.
 
+[![dotnet-core-download.png](https://i.postimg.cc/VsXDgf7H/dotnet-core-download.png)](https://postimg.cc/t7C3CjGh)
+
 Detta kan ta en stund att ladda ner och installera, men följ anvisningarna på skärmen.
 
 När installationen är klar så är det dags att köra kommandot för att skapa ett REST API med .core.
