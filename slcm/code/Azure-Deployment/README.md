@@ -111,7 +111,7 @@ I editor fönstret leta efter metoden ***Configure*** och alldeles före app.Use
   
 ```
 
-Detta är för att normalt så returnerar ett API endast json eller xml via sina **endpoints**. Nu vill vi istället att vår index.html som finns i vårt klient projekt skall returneras. Detta är vad ***app.UseDefaultFiles()*** tillåter oss att göra. ***app.UseStaticFiles() tillåter oss att använda statiska filer som *.html, bilder samt css.
+Detta är för att normalt så returnerar ett API endast json eller xml via sina **endpoints**. Nu vill vi istället att vår index.html som finns i vårt klient projekt skall returneras. Detta är vad ***app.UseDefaultFiles()*** tillåter oss att göra. ***app.UseStaticFiles()*** tillåter oss att använda statiska filer som *.html, bilder samt css.
 
 
 
