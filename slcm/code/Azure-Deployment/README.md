@@ -134,7 +134,7 @@ Nu skapas en produktion version av klient applikationen. När det är klart gå 
 
 **Steg 4.**
 Nu ska vi testköra vår applikation, i terminal eller konsolfönstret navigera till *CarSales/API* katalogen.
-Skriv in kommandot ` dotnet run ` för att starta vårt API. När API projektet körs öppna en webbläsare och ange följande adress i addressfältet **https://localhost:5001** och tryck Enter.
+Skriv in kommandot ` dotnet run ` för att starta vårt API. När API projektet körs öppna en webbläsare och ange följande adress i addressfältet ` https://localhost:5001 ` och tryck Enter.
 
 Woow!!!
 
